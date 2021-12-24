@@ -1,10 +1,10 @@
 version: 2
 
 sources:
-  - name: snowflake_sample_data
+  - name: SNOWFLAKE_SAMPLE_DATA
     description: 'demo customer database from snowflake'
     database: SNOWFLAKE_SAMPLE_DATA
-    schema: TPCH_SF001
+    schema: TPCH_SF1
     tables:
       - name: CUSTOMER
         description : 'holds smple data about customers'
